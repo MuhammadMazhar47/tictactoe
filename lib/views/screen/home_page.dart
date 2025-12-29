@@ -42,7 +42,7 @@ class HomeView extends StatelessWidget {
                     child: ElevatedButton(
                       onPressed: () {
                         homeStart.startGame(context);
-                        print('start game------>>>>>${homeStart}');
+                        print('start game---------------->>>>>${homeStart}');
                       },
                       style: ElevatedButton.styleFrom(
                         foregroundColor: Colors.deepPurpleAccent,

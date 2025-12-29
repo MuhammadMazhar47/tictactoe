@@ -15,7 +15,7 @@ class HomeStart extends Cubit<HomeState> {
   HomeStart() : super(const HomeState());
 
   void startGame(BuildContext context) {
-    print("Game Started--->>>>!");
+    print("Game Started----------->>>>");
     Navigator.of(context).push(
       MaterialPageRoute(
         builder:
